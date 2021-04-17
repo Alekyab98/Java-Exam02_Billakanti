@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Question4;
+package Question9ex1;
 
 /**
  *
  * @author Alekya Billakanti
  */
-public class Question4Driver {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public interface Bank {
+    double RATEOFINTEREST=4.6;
+    public abstract String getAccountType();
+    
     
 }

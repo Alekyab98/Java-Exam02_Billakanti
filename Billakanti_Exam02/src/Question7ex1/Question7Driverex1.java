@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Question7;
+package Question7ex1;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Alekya Billakanti
  */
-public class Question7Driver {
+public class Question7Driverex1 {
 
     /**
      * @param args the command line arguments

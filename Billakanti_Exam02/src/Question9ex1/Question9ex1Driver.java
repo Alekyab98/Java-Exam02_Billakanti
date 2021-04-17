@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Question9;
+package Question9ex1;
 
 /**
  *
  * @author Alekya Billakanti
  */
-public class Question9Driver {
+public class Question9ex1Driver {
 
     /**
      * @param args the command line arguments

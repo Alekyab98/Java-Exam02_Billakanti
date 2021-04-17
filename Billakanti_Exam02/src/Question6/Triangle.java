@@ -24,7 +24,7 @@ public class Triangle extends GeometricObject {
     }
 
     @Override
-    public double clacArea() {
+    public double calcArea() {
         double temp = calcPerimeter()/2;
         return Math.round(Math.sqrt(temp*(temp-s1)*
                 (temp-s2)*(temp-s3))*100)/100.0;
@@ -38,7 +38,7 @@ public class Triangle extends GeometricObject {
 
     @Override
     public String toString() {
-    return "\nArea: "+ this.clacArea() +"\nPerimeter: " +this.calcPerimeter()+ 
+    return "\nArea: "+ this.calcArea() +"\nPerimeter: " +this.calcPerimeter()+ 
             "\nColor: "+ super.getColor()+"\nColor filled : "+super.isColorFilled();
     }
     

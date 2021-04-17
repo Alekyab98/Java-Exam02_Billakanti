@@ -3,15 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Question9;
+package Question9ex2;
 
 /**
  *
  * @author Alekya Billakanti
  */
-public interface Bank {
-    double RATEOFINTEREST=4.6;
-    public abstract String getAccountType();
+public interface Doctor {
     
+     public abstract String specialization();
     
 }

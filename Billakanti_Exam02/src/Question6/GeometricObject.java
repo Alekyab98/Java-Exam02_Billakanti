@@ -27,7 +27,7 @@ public abstract class GeometricObject {
         return colorFilled;
     }
     
-    public abstract double clacArea();
+    public abstract double calcArea();
     public abstract double calcPerimeter();
    
     
